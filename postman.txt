@@ -1,0 +1,24 @@
+1. POST (https://blog.kata.academy/api/users): {
+    "user": {
+        "username": "artur",
+        "email": "art14ek@tut.by",
+        "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0ZDM5OTBmYzMxZGUxMWIwMGJjYmY4YSIsInVzZXJuYW1lIjoiYXJ0dXIiLCJleHAiOjE2OTY3NzI4NzksImlhdCI6MTY5MTU4ODg3OX0.DrhwCxyFljJETOkPT5GuUijCW6GnlYvHsZH8KGdbVII"
+    }
+}
+
+2.POST (https://blog.kata.academy/api/users/login): {
+    "user": {
+        "username": "artur",
+        "email": "art14ek@tut.by",
+        "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0ZDM5OTBmYzMxZGUxMWIwMGJjYmY4YSIsInVzZXJuYW1lIjoiYXJ0dXIiLCJleHAiOjE2OTY3NzMxOTAsImlhdCI6MTY5MTU4OTE5MH0.kJRzN_j9o6zkj3-tCGR8TC0C7cAacrjgx2BO3Ycttbw"
+    }
+}
+
+3. GET (https://blog.kata.academy/api/user):
+{
+    "user": {
+        "username": "artur",
+        "email": "art14ek@tut.by",
+        "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0ZDM5OTBmYzMxZGUxMWIwMGJjYmY4YSIsInVzZXJuYW1lIjoiYXJ0dXIiLCJleHAiOjE2OTY3NzM2MjIsImlhdCI6MTY5MTU4OTYyMn0.PsmvTdHYwFzdB-b87J-SAiz_T-GFIwF9AMLjmTZBE_Y"
+    }
+}
